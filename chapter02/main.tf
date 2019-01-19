@@ -5,6 +5,16 @@ provider "aws" {
   region = "us-east-1"
 }
 
+//terraform {
+//  backend "s3" {
+//    bucket  = "cgautoadmin"
+//    region  = "us-east-1"
+//    key     = "terraform.tfstate"
+//    encrypt = true
+//    dynamodb_table = "terraform-state-lockdb"
+//  }
+//}
+
 ##########################################################################################
 ### resources
 ##########################################################################################
